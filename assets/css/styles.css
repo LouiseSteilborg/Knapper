@@ -1,0 +1,58 @@
+section {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.Knap1 {
+  text-decoration: none;
+  color: #d800ff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.Knap1:hover {
+  color: #82029a;
+}
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.Knap2 {
+  text-decoration: none;
+  color: white;
+  background-color: #d800ff;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 19px 41px;
+  display: inline-block;
+}
+.Knap2:hover {
+  background-color: #82029a;
+}
+.Knap3 {
+  border-radius: 20px;
+}
+.Knap4 {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.54);
+}
+.Knap4:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.42);
+}
+.Knap5 {
+  border-radius: 40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  background: rgb(216, 43, 252);
+  background: linear-gradient(
+    180deg,
+    rgba(216, 43, 252, 1) 0%,
+    rgba(117, 12, 139, 1) 100%
+  );
+}
+.Knap5:hover {
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.5);
+  background: rgb(216, 43, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(216, 43, 252, 1) 0%,
+    rgba(117, 12, 139, 1) 100%
+  );
+}
