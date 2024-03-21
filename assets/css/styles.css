@@ -1,8 +1,69 @@
+.btn {
+  font-size: 32px;
+  padding: 19px 41px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-simple {
+  color: #d800ff;
+}
+
+.btn-simple:hover {
+  color: #82029a;
+}
 section {
   display: flex;
   gap: 20px;
   flex-direction: column;
 }
+
+.btn-square {
+  background-color: #d800ff;
+}
+
+.btn-square:hover {
+  background-color: #82029a;
+}
+
+.btn-rounded {
+  background-color: #d800ff;
+  border-radius: 20px;
+}
+
+.btn-rounded:hover {
+  background-color: #82029a;
+}
+
+.btn-rounded-shadow {
+  background-color: #d800ff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.54);
+}
+
+.btn-rounded-shadow:hover {
+  background-color: #82029a;
+}
+
+.btn-rounded-shadow-rotate {
+  border-radius: 40px;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.5);
+  background: rgb(216, 43, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(216, 43, 252, 1) 0%,
+    rgba(117, 12, 139, 1) 100%
+  );
+}
+.btn-rounded-shadow-rotate:hover {
+  background: rgb(216, 43, 252);
+  background: linear-gradient(
+    180deg,
+    rgba(216, 43, 252, 1) 0%,
+    rgba(117, 12, 139, 1) 100%
+  );
+}
+
 .Knap1 {
   text-decoration: none;
   color: #d800ff;
